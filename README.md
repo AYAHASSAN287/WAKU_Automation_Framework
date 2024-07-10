@@ -10,15 +10,24 @@ the objective of the project is to write 2 test cases
 
 1- clone the repo 
 2- make sure the following installed 
-   - python 3.10 or higher 
-   packages in python 
+   - python 3.10 or higher
+   - 
+   packages in python
+
     - docker in python version 5.0.3 or 7.1.0 use command pip3 install docker
+    
     - logging
+    
     -unittest
+    
     - time
+    
     - json
+    
     -  sys
+    
     - os 
+    
     -subproccess 
     
 
