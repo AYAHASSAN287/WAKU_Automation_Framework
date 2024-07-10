@@ -38,6 +38,7 @@ test cases will run and you can check the logs in terminal
 
 
     
+![Untitled Diagram drawio (1)](https://github.com/AYAHASSAN287/WAKU_Automation_Framework/assets/49167455/b931ac86-4c49-4c33-926d-04fe1397490c)
 
 
 
