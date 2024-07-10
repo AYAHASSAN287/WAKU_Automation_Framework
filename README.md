@@ -67,7 +67,7 @@ Docker handler manage all requests regarding docker in python .
 
 ## important_notes:
 
-logging_custom class is used from stackoverflow question in the following link link .
+logging_custom class is used from stackoverflow question in the following link https://stackoverflow.com/questions/384076/how-can-i-color-python-logging-output .
 
 Test case [ test_node_up ] is considered as smoke test or entry test to determine wether the main tests shal run or not but it’s not impelmented as it is not the scope of the task . 
 
