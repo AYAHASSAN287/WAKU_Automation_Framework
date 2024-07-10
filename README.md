@@ -1,4 +1,4 @@
-﻿# Project Title
+﻿## Project_Title
 
 Automation Test Framework for WAKU project using python/docker 
 the objective of the project is to write 2 test cases 
@@ -32,7 +32,7 @@ test cases will run and you can check the logs in terminal
 
 
 
-##Details
+## Details
 
  when running the above cmmaond test cases will run as following
 
@@ -43,7 +43,7 @@ test cases will run and you can check the logs in terminal
 
 
 
-##Project overview 
+## Project overview 
 
 
 ![Untitled Diagram drawio (1)](https://github.com/AYAHASSAN287/WAKU_Automation_Framework/assets/49167455/0df46e31-4688-4e6f-80ab-e28239b7b675)
@@ -59,7 +59,7 @@ Docker handler manage all requests regarding docker in python .
 
 
 
-#important notes:
+## important_notes:
 
 logging_custom class is used from stackoverflow question in the following link link .
 
