@@ -1,0 +1,99 @@
+ python3 main.py 1>> log.txt
+2024-07-10 12:40:03,413 - My_app - INFO - node1 & node2 configurations loaded from node1_config.json &node2_config.json (nodes_testcases.py:32)
+2024-07-10 12:40:03,413 - My_app - DEBUG - calling precondition test case (nodes_testcases.py:56)
+2024-07-10 12:40:03,413 - My_app - DEBUG - precondition test case is empty (nodes_testcases.py:35)
+2024-07-10 12:40:03,413 - My_app - DEBUG - test precondition finished (nodes_testcases.py:58)
+2024-07-10 12:40:03,413 - My_app - DEBUG - creating node wakuorg/nwaku:v0.24.0 from image wakuorg/nwaku:v0.24.0 (nodes_testcases.py:59)
+2024-07-10 12:40:03,413 - My_app - DEBUG - wait for timeout (nodes_testcases.py:60)
+2024-07-10 12:40:03,866 - My_app - DEBUG - node Node1 created with options {'listen-address': '0.0.0.0', 'log-level': 'TRACE', 'rest': 'true', 'rest-admin': 'true', 'websocket-support': 'true', 'rest-relay-cache-capacity': '100', 'websocket-port': '21163', 'rest-port': '21161', 'tcp-port': '21162', 'rest-address': '0.0.0.0', 'discv5-udp-port': '21164', 'nat': 'extip:172.18.111.226', 'peer-exchange': 'true', 'discv5-discovery': 'true', 'relay': 'true'} 
+ image wakuorg/nwaku:v0.24.0 is up  (nodes_testcases.py:48)
+2024-07-10 12:40:08,871 - My_app - INFO - node 1 created successfully (nodes_testcases.py:64)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   450  100   450    0     0  96071      0 --:--:-- --:--:-- --:--:--  109k
+2024-07-10 12:40:10,903 - My_app - INFO - debug info fetched successfully (nodes_testcases.py:69)
+2024-07-10 12:40:10,903 - My_app - DEBUG - subscribing node of ip 172.18.111.226 to topic /my-app/2/chatroom-1/proto (nodes_testcases.py:70)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    32  100     2  100    30     52    788 --:--:-- --:--:-- --:--:--   864
+2024-07-10 12:40:12,967 - My_app - INFO - node with ip 0.0.0.0:21161 subscribed successfully to topic /my-app/2/chatroom-1/proto (nodes_testcases.py:75)
+2024-07-10 12:40:12,967 - My_app - DEBUG - sending msg UmVsYXkgd29ya3MhIQ for node1 (nodes_testcases.py:77)
+2024-07-10 12:40:12,968 - My_app - DEBUG - waiting for timeout (nodes_testcases.py:78)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    94  100     2  100    92    300  13844 --:--:-- --:--:-- --:--:-- 15666
+2024-07-10 12:40:15,002 - My_app - INFO - node with ip 0.0.0.0:21161 successfully send message UmVsYXkgd29ya3MhIQ (nodes_testcases.py:83)
+2024-07-10 12:40:15,002 - My_app - DEBUG - check if message can be retrieved  (nodes_testcases.py:84)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   124  100   124    0     0  17188      0 --:--:-- --:--:-- --:--:-- 20666
+2024-07-10 12:40:15,035 - My_app - INFO - message UmVsYXkgd29ya3MhIQ is sent and retrieved successfully (nodes_testcases.py:87)
+2024-07-10 12:40:15,036 - My_app - DEBUG - stop the container fadeab0e5692of node1  (nodes_testcases.py:88)
+2024-07-10 12:40:15,036 - My_app - INFO - Test case Passed (nodes_testcases.py:89)
+2024-07-10 12:40:16,590 - My_app - DEBUG - container with id fadeab0e5692 stopped 
+ (nodes_testcases.py:39)
+2024-07-10 12:40:16,591 - My_app - DEBUG - calling precondition test case (nodes_testcases.py:94)
+2024-07-10 12:40:16,591 - My_app - DEBUG - precondition test case is empty (nodes_testcases.py:35)
+2024-07-10 12:40:16,591 - My_app - DEBUG - test precondition finished (nodes_testcases.py:96)
+2024-07-10 12:40:16,591 - My_app - DEBUG - creating node wakuorg/nwaku:v0.24.0 from image wakuorg/nwaku:v0.24.0 (nodes_testcases.py:97)
+2024-07-10 12:40:16,592 - My_app - DEBUG - wait for timeout (nodes_testcases.py:98)
+2024-07-10 12:40:16,982 - My_app - DEBUG - node Node1 created with options {'listen-address': '0.0.0.0', 'log-level': 'TRACE', 'rest': 'true', 'rest-admin': 'true', 'websocket-support': 'true', 'rest-relay-cache-capacity': '100', 'websocket-port': '21163', 'rest-port': '21161', 'tcp-port': '21162', 'rest-address': '0.0.0.0', 'discv5-udp-port': '21164', 'nat': 'extip:172.18.111.226', 'peer-exchange': 'true', 'discv5-discovery': 'true', 'relay': 'true'} 
+ image wakuorg/nwaku:v0.24.0 is up  (nodes_testcases.py:48)
+2024-07-10 12:40:21,983 - My_app - INFO - node 1 created successfully (nodes_testcases.py:102)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   450  100   450    0     0   120k      0 --:--:-- --:--:-- --:--:--  146k
+2024-07-10 12:40:24,014 - My_app - DEBUG - subscribing node of ip 172.18.111.226 to topic /my-app/2/chatroom-1/proto (nodes_testcases.py:108)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    32  100     2  100    30     48    720 --:--:-- --:--:-- --:--:--   780
+2024-07-10 12:40:26,079 - My_app - INFO - node with ip 0.0.0.0:21161 subscribed successfully to topic /my-app/2/chatroom-1/proto (nodes_testcases.py:114)
+2024-07-10 12:40:26,080 - My_app - DEBUG - add node to network waku with subnet 172.18.0.0/16 and gateway 172.18.0.1 (nodes_testcases.py:117)
+2024-07-10 12:40:29,205 - My_app - INFO - network created successfully (nodes_testcases.py:123)
+2024-07-10 12:40:29,205 - My_app - DEBUG - adding node1 to the network waku (nodes_testcases.py:124)
+2024-07-10 12:40:36,559 - My_app - INFO - node added successfully (nodes_testcases.py:131)
+2024-07-10 12:40:36,560 - My_app - DEBUG - configuring node2 (nodes_testcases.py:133)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   450  100   450    0     0   100k      0 --:--:-- --:--:-- --:--:--  146k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   450  100   450    0     0   239k      0 --:--:-- --:--:-- --:--:--  439k
+2024-07-10 12:40:39,611 - My_app - DEBUG - creating node wakuorg/nwaku:v0.24.0 from image wakuorg/nwaku:v0.24.0 (nodes_testcases.py:138)
+2024-07-10 12:40:39,611 - My_app - DEBUG - wait for timeout (nodes_testcases.py:139)
+2024-07-10 12:40:40,464 - My_app - DEBUG - node Node2 created with options {'listen-address': '0.0.0.0', 'log-level': 'TRACE', 'rest': 'true', 'rest-admin': 'true', 'websocket-support': 'true', 'rest-relay-cache-capacity': '100', 'websocket-port': '8646', 'rest-port': '60000', 'tcp-port': '9000', 'rest-address': '0.0.0.0', 'discv5-udp-port': '8545', 'nat': 'extip:172.18.111.227', 'peer-exchange': 'true', 'discv5-discovery': 'true', 'relay': 'true', 'discv5-bootstrap-node': 'enr:-Kq4QBIGcOtUi9V-DY88PvL0dHoI82gPJcAVfMR0AQ-IGyuyBEQHRU_Dkn1QCvRJEMGWSTEPBhmmgt1sVmIfa9UcB7sBgmlkgnY0gmlwhKwSb-KKbXVsdGlhZGRyc4wACgSsEm_iBlKr3QOJc2VjcDI1NmsxoQNtVaX8G5o3-rkDFKqk5iiHsFUB3fnd0rs2tptaelPrxoN0Y3CCUqqDdWRwglKshXdha3UyAQ'} 
+ image wakuorg/nwaku:v0.24.0 is up  (nodes_testcases.py:48)
+2024-07-10 12:40:43,467 - My_app - INFO - node 2 created successfully (nodes_testcases.py:145)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   448  100   448    0     0   101k      0 --:--:-- --:--:-- --:--:--  145k
+2024-07-10 12:40:45,499 - My_app - INFO - debug info fetched successfully (nodes_testcases.py:151)
+2024-07-10 12:40:58,847 - My_app - INFO - node added successfully (nodes_testcases.py:158)
+2024-07-10 12:40:58,848 - My_app - DEBUG - Test if node2 added as peer for node1 (nodes_testcases.py:160)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   172  100   172    0     0  56190      0 --:--:-- --:--:-- --:--:-- 86000
+2024-07-10 12:41:00,879 - My_app - INFO - node2 addedd successfully as peer to node1 (nodes_testcases.py:164)
+2024-07-10 12:41:00,880 - My_app - DEBUG - subcribe node2 to topic /my-app/2/chatroom-1/proto (nodes_testcases.py:165)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    32  100     2  100    30    180   2706 --:--:-- --:--:-- --:--:--  3200
+2024-07-10 12:41:03,922 - My_app - DEBUG - sending msg UmVsYXkgd29ya3MhIQ for node1 (nodes_testcases.py:171)
+2024-07-10 12:41:03,923 - My_app - DEBUG - waiting for timeout (nodes_testcases.py:172)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    94  100     2  100    92    535  24651 --:--:-- --:--:-- --:--:-- 31333
+2024-07-10 12:41:09,947 - My_app - INFO - node with ip 0.0.0.0:21161 successfully send message UmVsYXkgd29ya3MhIQ (nodes_testcases.py:178)
+2024-07-10 12:41:09,948 - My_app - DEBUG - check if message received by node2  (nodes_testcases.py:179)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   124  100   124    0     0  26558      0 --:--:-- --:--:-- --:--:-- 31000
+2024-07-10 12:41:09,977 - My_app - INFO - message UmVsYXkgd29ya3MhIQ is received  successfully by node2 (nodes_testcases.py:182)
+2024-07-10 12:41:09,977 - My_app - DEBUG - stop the container 8dc5bedc4176of node1
+ stop the container 8354600e9f50of node2 (nodes_testcases.py:183)
+2024-07-10 12:41:12,180 - My_app - DEBUG - container with id 8dc5bedc4176 stopped 
+ (nodes_testcases.py:39)
+2024-07-10 12:41:12,180 - My_app - INFO - Test case Passed (nodes_testcases.py:186)
+2024-07-10 12:41:14,848 - My_app - DEBUG - container with id 8354600e9f50 stopped 
+ network waku stopped (nodes_testcases.py:44)
+

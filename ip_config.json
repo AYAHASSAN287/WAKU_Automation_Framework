@@ -1,0 +1,7 @@
+{
+    "node1-rest-port": "0.0.0.0:21161",
+    "log-level":  "TRACE",
+    "rest": "true",
+    "rest-admin": "true"
+    
+ }

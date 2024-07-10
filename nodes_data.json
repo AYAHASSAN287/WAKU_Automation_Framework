@@ -1,0 +1,7 @@
+{
+"image":"wakuorg/nwaku:v0.24.0",
+"topic":"/my-app/2/chatroom-1/proto",
+ "network-subnet":"172.18.0.0/16",
+ "network-gateway":"172.18.0.1",
+ "network-name":"waku"
+}

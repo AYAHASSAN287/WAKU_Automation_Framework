@@ -1,0 +1,18 @@
+{
+    "listen-address": "0.0.0.0" ,
+    "log-level":  "TRACE",
+    "rest": "true",
+    "rest-admin": "true",
+    "websocket-support" :"true" ,
+    "rest-relay-cache-capacity"  :  "100" ,
+    "websocket-port"  :  "21163" ,
+    "rest-port"   : "21161" ,
+    "tcp-port"   : "21162" ,
+    "rest-address" : "0.0.0.0",
+    "discv5-udp-port"   : "21164"  ,
+    "rest-address"  :  "0.0.0.0" ,
+    "nat" : "extip:172.18.111.226" ,
+    "peer-exchange" : "true" ,
+    "discv5-discovery" : "true" ,
+    "relay" : "true"
+}
